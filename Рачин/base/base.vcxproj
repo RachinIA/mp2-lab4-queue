@@ -10,6 +10,22 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TDataList.cpp" />
+    <ClCompile Include="THeadRing.cpp" />
+    <ClCompile Include="TMonom.cpp" />
+    <ClCompile Include="TPolinom.cpp" />
+    <ClCompile Include="sample_polinom.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TDataLink.h" />
+    <ClInclude Include="TDataList.h" />
+    <ClInclude Include="TDataValue.h" />
+    <ClInclude Include="THeadRing.h" />
+    <ClInclude Include="TMonom.h" />
+    <ClInclude Include="TPolinom.h" />
+    <ClInclude Include="TRootLink.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4854D7B0-72B7-4276-BE33-BFADBC979165}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -79,17 +95,6 @@
       <AdditionalDependencies>gtest.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="QueueTestkit.cpp" />
-    <ClCompile Include="sample_queue.cpp" />
-    <ClCompile Include="TJobStream.cpp" />
-    <ClCompile Include="TTask.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="TJobStream.h" />
-    <ClInclude Include="TTask.h" />
-    <ClInclude Include="TQueue.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

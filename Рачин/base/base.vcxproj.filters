@@ -15,27 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TJobStream.cpp">
+    <ClCompile Include="sample_polinom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QueueTestkit.cpp">
+    <ClCompile Include="TDataList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TTask.cpp">
+    <ClCompile Include="THeadRing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sample_queue.cpp">
+    <ClCompile Include="TMonom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TPolinom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TQueue.h">
+    <ClInclude Include="TDataLink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TJobStream.h">
+    <ClInclude Include="TDataList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TTask.h">
+    <ClInclude Include="TDataValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THeadRing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TMonom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TPolinom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TRootLink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

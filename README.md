@@ -1,3 +1,4 @@
 # mp2-lab4-queue
+# mp2-lab5-polinom
  
-Create Queue-program
+Create Polinom-program
